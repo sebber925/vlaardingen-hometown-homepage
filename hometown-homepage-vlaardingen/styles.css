@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+.hero {
+    background-image: url("Images/20970.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+}
+
+#h1title {
+    margin: 150px 20px;
+    padding: 10px 20px;
+    position: absolute;
+    color: white;
+    background-color: #1D3557;
+    border: none solid 3px;
+    border-radius: 15px;
+}
+
+#h2title {
+    margin: 260px 20px;
+    padding: 10px 20px;
+    position: absolute;
+    color: white;
+    background-color: #457B9D;
+    border: none solid 3px;
+    border-radius: 15px;
+}
+
+#top3 {
+    background-color: #A8DADC;
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.activity_wrapper {
+    background-color: #A8DADC;
+    padding: 25px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.activity {
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.activity-pic {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.guide {
+    background-color: white;
+}
+
+.card {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #3794cac4;
+    color: #fefae0;
+    border-bottom: 6px solid #123a5f;
+    border-left: 6px solid #123a5f;
+    border-radius: 15px;
+}
+
+#avatar {
+    width: 150px;
+    padding-left: 125px;
+ }
